@@ -4,7 +4,7 @@
 
 # Ejecutar en desarrollo
 
-1. Clonar en repositorio
+1. Clonar el repositorio
 2. Ejecutar para reconstruir los paquetes de Node
 ```
 npm install
