@@ -21,7 +21,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos con la semilla (DEV)
+5. Duplicar el archivo __.env.template__ y renombrar a __.env__
+
+6. Configurar las variables de entorno definidas en el archivo __.env__
+
+7. Subir el servicio de Nest JS
+```
+npm run start:dev
+```
+
+8. Reconstruir la base de datos con la semilla
 ```
 GET http://localhost:3000/api/v2/seed
 ```
