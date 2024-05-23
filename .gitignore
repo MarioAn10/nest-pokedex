@@ -6,6 +6,9 @@
 # dockerized mongo (local)
 /mongo
 
+# env variables
+.env
+
 # Logs
 logs
 *.log
